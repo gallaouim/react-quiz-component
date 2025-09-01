@@ -27,7 +27,7 @@
     "survey",
     "form"
   ],
-  "author": "Your Name <your.email@example.com>",
+  "author": "gallaouim <maher.gallaoui@outlook.de>",
   "license": "MIT",
   "peerDependencies": {
     "react": ">=16.8.0",
