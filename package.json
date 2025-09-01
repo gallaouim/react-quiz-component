@@ -1,5 +1,5 @@
 {
-  "name": "@gallaouim/react-quiz-component",
+  "name": "react-multi-quiz",
   "version": "1.0.0",
   "type": "module",
   "description": "A customizable and flexible quiz component for React applications",
@@ -21,11 +21,14 @@
   "keywords": [
     "react",
     "quiz",
+    "multi-quiz",
     "component",
     "typescript",
     "questionnaire",
     "survey",
-    "form"
+    "form",
+    "multiple-choice",
+    "quiz-component"
   ],
   "author": "gallaouim <maher.gallaoui@outlook.de>",
   "license": "MIT",

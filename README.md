@@ -1,11 +1,11 @@
-# React Quiz Component
+# React Multi Quiz
 
-[![npm version](https://img.shields.io/npm/v/@gallaouim/react-quiz-component.svg)](https://www.npmjs.com/package/@gallaouim/react-quiz-component)
-[![npm downloads](https://img.shields.io/npm/dm/@gallaouim/react-quiz-component.svg)](https://www.npmjs.com/package/@gallaouim/react-quiz-component)
+[![npm version](https://img.shields.io/npm/v/react-multi-quiz.svg)](https://www.npmjs.com/package/react-multi-quiz)
+[![npm downloads](https://img.shields.io/npm/dm/react-multi-quiz.svg)](https://www.npmjs.com/package/react-multi-quiz)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 
-A highly customizable and flexible quiz component for React applications. Built with TypeScript and optimized for performance.
+A highly customizable and flexible multi-quiz component for React applications. Built with TypeScript and optimized for performance.
 
 ✨ **Features:**
 - 🎯 Multiple question types (single, multiple, boolean, text)
@@ -32,17 +32,17 @@ A highly customizable and flexible quiz component for React applications. Built 
 ## 📦 Installation
 
 ```bash
-npm install @gallaouim/react-quiz-component
+npm install react-multi-quiz
 # or
-yarn add @gallaouim/react-quiz-component
+yarn add react-multi-quiz
 # or
-pnpm add @gallaouim/react-quiz-component
+pnpm add react-multi-quiz
 ```
 
 ## 🚀 Quick Start
 
 ```tsx
-import { Quiz, QuizQuestion } from '@gallaouim/react-quiz-component';
+import { Quiz, QuizQuestion } from 'react-multi-quiz';
 
 const questions: QuizQuestion[] = [
   {
@@ -83,7 +83,7 @@ function App() {
 
 ```tsx
 import React from 'react';
-import { Quiz, QuizQuestion } from '@gallaouim/react-quiz-component';
+import { Quiz, QuizQuestion } from 'react-multi-quiz';
 
 const questions: QuizQuestion[] = [
   {
@@ -258,7 +258,7 @@ const theme: QuizTheme = {
 
 ### Basic Implementation
 ```tsx
-import { Quiz, QuizQuestion } from '@gallaouim/react-quiz-component';
+import { Quiz, QuizQuestion } from 'react-multi-quiz';
 
 const questions: QuizQuestion[] = [
   {
@@ -353,7 +353,7 @@ import {
   QuizConfig, 
   QuizTheme, 
   QuizResult 
-} from '@gallaouim/react-quiz-component';
+} from 'react-multi-quiz';
 ```
 
 ## Browser Support
@@ -389,7 +389,7 @@ If you have any questions or need help, please open an issue on GitHub or contac
 
 ## 📦 Package Information
 
-- **Package**: `@gallaouim/react-quiz-component`
+- **Package**: `react-multi-quiz`
 - **Version**: `1.0.0`
 - **Size**: ~48KB (gzipped)
 - **License**: MIT
