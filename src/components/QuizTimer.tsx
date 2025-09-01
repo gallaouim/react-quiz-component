@@ -1,3 +1,4 @@
+
 import React, { useEffect, useState } from 'react';
 import { QuizTheme } from '../types';
 import { mergeTheme, formatTime } from '../utils/quizUtils';
