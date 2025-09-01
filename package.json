@@ -1,5 +1,5 @@
 {
-  "name": "react-quiz-component",
+  "name": "@gallaouim/react-quiz-component",
   "version": "1.0.0",
   "type": "module",
   "description": "A customizable and flexible quiz component for React applications",
