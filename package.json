@@ -52,12 +52,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/YOUR_GITHUB_USERNAME/react-quiz-component.git"
+    "url": "https://github.com/gallaouim/react-quiz-component.git"
   },
   "bugs": {
-    "url": "https://github.com/YOUR_GITHUB_USERNAME/react-quiz-component/issues"
+    "url": "https://github.com/gallaouim/react-quiz-component/issues"
   },
-  "homepage": "https://github.com/YOUR_GITHUB_USERNAME/react-quiz-component#readme",
+  "homepage": "https://github.com/gallaouim/react-quiz-component#readme",
   "dependencies": {
     "tslib": "^2.8.1"
   }
