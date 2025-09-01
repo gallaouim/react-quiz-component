@@ -1,6 +1,6 @@
-# Contributing to React Quiz Component
+# Contributing to React Multi Quiz
 
-Thank you for your interest in contributing to React Quiz Component! This document provides guidelines and information for contributors.
+Thank you for your interest in contributing to React Multi Quiz! This document provides guidelines and information for contributors.
 
 ## 🚀 Quick Start
 
