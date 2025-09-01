@@ -1,15 +1,49 @@
 # React Quiz Component
 
+[![npm version](https://img.shields.io/npm/v/@gallaouim/react-quiz-component.svg)](https://www.npmjs.com/package/@gallaouim/react-quiz-component)
+[![npm downloads](https://img.shields.io/npm/dm/@gallaouim/react-quiz-component.svg)](https://www.npmjs.com/package/@gallaouim/react-quiz-component)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+
 A highly customizable and flexible quiz component for React applications. Built with TypeScript and optimized for performance.
+
+✨ **Features:**
+- 🎯 Multiple question types (single, multiple, boolean, text)
+- 🎨 Fully customizable themes with 5 pre-built options
+- ⏱️ Timer functionality with visual countdown
+- 📊 Progress tracking and question navigation
+- 🎯 Points-based scoring system
+- 📱 Responsive design for all screen sizes
+- 🚀 Performance optimized with React hooks
+- 📦 Full TypeScript support
+
+## 📋 Table of Contents
+
+- [Installation](#-installation)
+- [Quick Start](#-quick-start)
+- [Live Demo](#-live-demo)
+- [API Reference](#-api-reference)
+- [Usage Examples](#-usage-examples)
+- [TypeScript Support](#typescript-support)
+- [Browser Support](#browser-support)
+- [Performance](#performance)
+- [Contributing](#contributing)
+- [License](#license)
+
+## 📦 Installation
+
+```bash
+npm install @gallaouim/react-quiz-component
+# or
+yarn add @gallaouim/react-quiz-component
+# or
+pnpm add @gallaouim/react-quiz-component
+```
 
 ## 🚀 Quick Start
 
-```bash
-npm install react-quiz-component
-```
-
 ```tsx
-import { Quiz, QuizQuestion } from 'react-quiz-component';
+import { Quiz, QuizQuestion } from '@gallaouim/react-quiz-component';
 
 const questions: QuizQuestion[] = [
   {
@@ -42,26 +76,9 @@ function App() {
 }
 ```
 
-## Features
 
-- 🎯 **Multiple Question Types**: Single choice, multiple choice, boolean, and text questions
-- 🎨 **Fully Customizable**: Theme support with custom colors, fonts, and styling
-- ⏱️ **Timer Support**: Optional time limits with visual countdown
-- 📊 **Progress Tracking**: Visual progress indicators and question navigation
-- 🎯 **Scoring System**: Points-based scoring with percentage calculations
-- 📝 **Answer Validation**: Built-in validation for all question types
-- 🔄 **Retry Functionality**: Option to retake quizzes
-- 📱 **Responsive Design**: Works on all screen sizes
-- 🚀 **Performance Optimized**: Built with React hooks and memoization
-- 📦 **TypeScript Support**: Full type safety and IntelliSense support
 
-## 📦 Installation
 
-```bash
-npm install react-quiz-component
-# or
-yarn add react-quiz-component
-```
 
 ## 🎯 Live Demo
 
@@ -78,7 +95,7 @@ The demo shows:
 
 ```tsx
 import React from 'react';
-import { Quiz, QuizQuestion } from 'react-quiz-component';
+import { Quiz, QuizQuestion } from '@gallaouim/react-quiz-component';
 
 const questions: QuizQuestion[] = [
   {
@@ -253,7 +270,7 @@ const theme: QuizTheme = {
 
 ### Basic Implementation
 ```tsx
-import { Quiz, QuizQuestion } from 'react-quiz-component';
+import { Quiz, QuizQuestion } from '@gallaouim/react-quiz-component';
 
 const questions: QuizQuestion[] = [
   {
@@ -348,7 +365,7 @@ import {
   QuizConfig, 
   QuizTheme, 
   QuizResult 
-} from 'react-quiz-component';
+} from '@gallaouim/react-quiz-component';
 ```
 
 ## Browser Support
@@ -382,13 +399,26 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 If you have any questions or need help, please open an issue on GitHub or contact the maintainers.
 
-## Changelog
+## 📦 Package Information
 
-### v1.0.0
-- Initial release
-- Support for multiple question types
-- Customizable themes
-- Timer functionality
-- Progress tracking
-- Results display
-- TypeScript support
+- **Package**: `@gallaouim/react-quiz-component`
+- **Version**: `1.0.0`
+- **Size**: ~48KB (gzipped)
+- **License**: MIT
+- **Repository**: [GitHub](https://github.com/gallaouim/react-quiz-component)
+- **Issues**: [GitHub Issues](https://github.com/gallaouim/react-quiz-component/issues)
+
+## 📝 Changelog
+
+### v1.0.0 (Latest)
+- 🎉 Initial release
+- 🎯 Support for multiple question types (single, multiple, boolean, text)
+- 🎨 Customizable themes with 5 pre-built options
+- ⏱️ Timer functionality with visual countdown
+- 📊 Progress tracking and question navigation
+- 🎯 Points-based scoring system
+- 📱 Responsive design for all screen sizes
+- 🚀 Performance optimized with React hooks
+- 📦 Full TypeScript support
+- 🧪 Comprehensive test suite
+- 📚 Complete documentation and examples

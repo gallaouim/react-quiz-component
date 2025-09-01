@@ -3,11 +3,15 @@ node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
 
 # Build outputs
 dist/
 build/
 *.tsbuildinfo
+lib/
+es/
+umd/
 
 # Environment variables
 .env
@@ -94,3 +98,35 @@ jspm_packages/
 
 # DynamoDB Local files
 .dynamodb/
+
+# Rollup cache
+.rollup.cache
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Storybook build outputs
+storybook-static
+
+# Temporary folders
+tmp/
+temp/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Local Netlify folder
+.netlify
+
+# Sentry Config File
+.sentryclirc
+
+# Turbo
+.turbo
