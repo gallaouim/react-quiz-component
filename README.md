@@ -21,7 +21,6 @@ A highly customizable and flexible quiz component for React applications. Built 
 
 - [Installation](#-installation)
 - [Quick Start](#-quick-start)
-- [Live Demo](#-live-demo)
 - [API Reference](#-api-reference)
 - [Usage Examples](#-usage-examples)
 - [TypeScript Support](#typescript-support)
@@ -80,18 +79,7 @@ function App() {
 
 
 
-## 🎯 Live Demo
 
-Try the interactive demo to see all customization options in action:
-
-[Open Developer Demo](developer-demo.html)
-
-The demo shows:
-- **Real-time configuration** - Change settings and see immediate updates
-- **Theme customization** - 5 pre-built themes + custom colors
-- **Behavior toggles** - Enable/disable features instantly
-- **Code generation** - Get the exact code for your configuration
-- **Multiple question sets** - Programming, Math, Science examples
 
 ```tsx
 import React from 'react';
